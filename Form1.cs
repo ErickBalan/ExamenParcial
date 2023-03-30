@@ -92,5 +92,10 @@ namespace ExamenParcial
             dataGridView1.Refresh();
         
          }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
