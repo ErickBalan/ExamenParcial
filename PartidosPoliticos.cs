@@ -6,14 +6,14 @@ using System.Threading.Tasks;
 
 namespace ExamenParcial
 {
-    class PartidosPoliticos1
+    class PartidosPoliticos
     {
         String nombrePartido;
         String dpi;
-        DateTime fecha;
+        String fecha;
 
         public string NombrePartido { get => nombrePartido; set => nombrePartido = value; }
         public string Dpi { get => dpi; set => dpi = value; }
-        public DateTime Fecha { get => fecha; set => fecha = value; }
+        public string Fecha { get => fecha; set => fecha = value; }
     }
 }
