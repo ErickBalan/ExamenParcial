@@ -53,7 +53,7 @@ namespace ExamenParcial
 
         private void leerPartidosPoliticos()
         {
-            FileStream stream = new FileStream("Ciudadanos.txt", FileMode.OpenOrCreate, FileAccess.Read);
+            FileStream stream = new FileStream("PartidosPoliticos.txt", FileMode.OpenOrCreate, FileAccess.Read);
 
             StreamReader reader = new StreamReader(stream);
 
